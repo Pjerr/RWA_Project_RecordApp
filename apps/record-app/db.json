@@ -1,0 +1,185 @@
+{
+  "records": [
+    {
+      "id": 0,
+      "title": "Nevermind",
+      "yearOfRelease": 1991,
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/71DQrKpImPL._SL1400_.jpg",
+      "author": "Nirvana",
+      "votes": 6,
+      "favourite": "no"
+    },
+    {
+      "id": 1,
+      "title": "Superunknown",
+      "yearOfRelease": 1994,
+      "cover": "https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg",
+      "author": "Soundgarden",
+      "votes": 4,
+      "favourite": "no"
+    },
+    {
+      "id": 2,
+      "title": "Ten",
+      "yearOfRelease": 1991,
+      "cover": "https://upload.wikimedia.org/wikipedia/en/2/2d/PearlJam-Ten2.jpg",
+      "author": "Pearl Jam",
+      "votes": 9,
+      "favourite": "no"
+    },
+    {
+      "id": 3,
+      "title": "Dirt",
+      "yearOfRelease": 1992,
+      "cover": "https://img.discogs.com/YnmQmA48ST3uW-4bpIxOeMknVNk=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14587443-1577665758-3652.jpeg.jpg",
+      "author": "Alice in Chains",
+      "votes": 8,
+      "favourite": "yes"
+    },
+    {
+      "id": 4,
+      "title": "Faceless",
+      "yearOfRelease": 2003,
+      "cover": "https://upload.wikimedia.org/wikipedia/en/d/d2/Godsmack_faceless.jpg",
+      "author": "Godsmack",
+      "votes": 10,
+      "favourite": "no"
+    },
+    {
+      "id": 5,
+      "title": "Braindead",
+      "yearOfRelease": 2017,
+      "cover": "https://f4.bcbits.com/img/a2634510702_10.jpg",
+      "author": "Voodoo",
+      "votes": 12,
+      "favourite": "no"
+    }
+  ],
+  "songs": [
+    {
+      "id": 0,
+      "recordID": 0,
+      "name": "Smells Like Teen Spirit"
+    },
+    {
+      "id": 1,
+      "recordID": 0,
+      "name": "In Bloom"
+    },
+    {
+      "id": 2,
+      "recordID": 0,
+      "name": "Come As You Are"
+    },
+    {
+      "id": 3,
+      "recordID": 1,
+      "name": "Spoonman"
+    },
+    {
+      "id": 4,
+      "recordID": 1,
+      "name": "Black Hole Sun"
+    },
+    {
+      "id": 5,
+      "recordID": 1,
+      "name": "Head Down"
+    },
+    {
+      "id": 6,
+      "recordID": 2,
+      "name": "Once"
+    },
+    {
+      "id": 7,
+      "recordID": 2,
+      "name": "Even Flow"
+    },
+    {
+      "id": 8,
+      "recordID": 2,
+      "name": "Alive"
+    },
+    {
+      "id": 9,
+      "recordID": 2,
+      "name": "Porch"
+    },
+    {
+      "id": 10,
+      "recordID": 3,
+      "name": "Them Bones"
+    },
+    {
+      "id": 11,
+      "recordID": 3,
+      "name": "Rain When I Die"
+    },
+    {
+      "id": 12,
+      "recordID": 3,
+      "name": "Dirt"
+    },
+    {
+      "id": 13,
+      "recordID": 3,
+      "name": "Angry Chair"
+    },
+    {
+      "id": 14,
+      "recordID": 0,
+      "name": "Breed"
+    },
+    {
+      "id": 15,
+      "recordID": 0,
+      "name": "Drain You"
+    },
+    {
+      "id": 16,
+      "recordID": 0,
+      "name": "Stay Away"
+    },
+    {
+      "id": 17,
+      "recordID": 4,
+      "name": "I Stand Alone"
+    },
+    {
+      "id": 18,
+      "recordID": 4,
+      "name": "Dead and Broken"
+    },
+    {
+      "id": 19,
+      "recordID": 4,
+      "name": "I Am"
+    },
+    {
+      "id": 20,
+      "recordID": 4,
+      "name": "Changes"
+    },
+    {
+      "id": 21,
+      "recordID": 5,
+      "name": "Out of Me"
+    },
+    {
+      "id": 22,
+      "recordID": 5,
+      "name": "Braindead"
+    },
+    {
+      "id": 23,
+      "recordID": 5,
+      "name": "Ain't No God of Mine"
+    },
+    {
+      "id": 24,
+      "recordID": 5,
+      "name": "Stranger"
+    }
+  ]
+}

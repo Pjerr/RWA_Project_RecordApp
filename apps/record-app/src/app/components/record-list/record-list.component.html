@@ -1,0 +1,17 @@
+<h1 class="display-1">Pera's record corner</h1>
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <form #searchForm='ngForm' class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search for record" aria-label="Search" name="searchValue" required [(ngModel)]="searchValue">
+          <button class="btn btn-warning me-2" type="reset"><i class="fas fa-undo-alt"></i></button>
+        </form>
+      </div>
+  </div>
+  <div class="clearfix"></div>
+    <div class="row">
+      <div *ngFor="let record of records | async | searchFilterRecord: searchValue" class="col">
+        <angular-project-with-nest-record-detail [record]="record" (setVotes)="voteForRecord($event)" (selectedRecord)="selectThisRecord($event)" (changeFavouriteStateForRecord)="changeFavouriteState($event)"></angular-project-with-nest-record-detail>
+       </div>
+    </div>
+  </div>

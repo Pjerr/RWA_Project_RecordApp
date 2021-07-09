@@ -1,0 +1,51 @@
+p,h2,h3,h4{
+    text-align: center;
+}
+.card{
+    width: 600px;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px gray;
+    margin-top: 5px;
+}
+.img{
+    width: 400px;
+    height: 300px;
+}
+
+.fas, .far{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.fas:hover{
+    cursor: pointer;
+}
+
+.fa-angle-up:hover{
+    color: green;
+}
+
+.fa-angle-down:hover{
+    color: red;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: #19448a;
+    text-decoration: underline;
+}
+
+.far:hover{
+    cursor:pointer;
+}
+
+.punoSrce{
+    color: red;
+}
+
+.praznoSrce{
+    color: black;
+}
+.praznoSrce:hover{
+    color: red;
+}

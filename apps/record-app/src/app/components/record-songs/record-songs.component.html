@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="row" *ngIf="(selectedRecord | async) as record">
+        <h3>{{record.title}}</h3>
+        <div *ngFor="let song of songs |async" class="song">
+            <p>{{song.name}}</p>
+        </div>
+    </div>
+</div>

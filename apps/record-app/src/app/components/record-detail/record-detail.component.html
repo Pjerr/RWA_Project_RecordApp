@@ -1,0 +1,10 @@
+<div class="card" *ngIf="record">
+    <p class="float-end"  (mouseenter)="changeIconAppearance('yes')" (mouseleave)="changeIconAppearance('no')">
+        <i class="far fa-heart fa-lg praznoSrce" *ngIf="record.favourite === 'no'" (click)="changeFavouriteState('yes')"></i>
+        <i class="fas fa-heart fa-lg punoSrce"  *ngIf="record.favourite==='yes'" (click)="changeFavouriteState('no')"></i>
+    </p>
+    <h2><span class="title" (click)="selectThisRecord()">{{record?.title}}</span></h2>
+    <img [src]="record?.cover" class="img-thumbnail rounded mx-auto d-block img" alt="slika">
+    <h4>{{record?.author}} {{record?.yearOfRelease}}</h4>
+    <p>Votes: {{record?.votes}} <i class="fas fa-angle-up" (click)="vote(1)"></i><i class="fas fa-angle-down" (click)="vote(-1)"></i></p>
+</div>

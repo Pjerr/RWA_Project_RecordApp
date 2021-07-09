@@ -1,0 +1,22 @@
+.song{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+h3{
+    text-align: center;
+}
+
+.player{
+    text-align: center;
+}
+
+.song:hover{
+    /* cursor: pointer; */
+    background-color: antiquewhite;
+}
+
+p{
+    text-align: center;
+}
