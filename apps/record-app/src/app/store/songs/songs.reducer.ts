@@ -17,9 +17,5 @@ export const songReducer = createReducer(
   initialState,
   on(SongActions.loadSongsSuccess, (state, { songs }) => {
     return adapter.setAll(songs, state);
-  }),
-  on(SongActions.selectSong, (state, { songID }) => ({
-    ...state,
-    selectedSongID: songID,
-  }))
+  })
 );

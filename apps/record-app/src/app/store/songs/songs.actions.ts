@@ -17,7 +17,3 @@ export const loadSongsOfRecord = createAction(
   }>()
 );
 
-export const selectSong = createAction(
-  'Select song to play',
-  props<{ songID: number }>()
-);

@@ -28,11 +28,11 @@ export class RecordSongsComponent implements OnInit {
   ngOnInit(): void {
 
     const idString = this.route.snapshot.queryParamMap.get("recordID");
-    const id = idString != null ? +idString : -1;
+    const recordID = idString != null ? +idString : -1;
 
     this.store.dispatch(RecordsActions.loadRecords());
-    this.store.dispatch(SongsActions.loadSongsOfRecord({recordID:id}));
-    this.store.dispatch(RecordsActions.selectRecord({ recordID: id }));
+    this.store.dispatch(SongsActions.loadSongsOfRecord({recordID:recordID}));
+    this.store.dispatch(RecordsActions.selectRecord({ recordID: recordID }));
     this.selectedRecord = this.store.select(RecordsSelectors.selectOneRecord);
 
     this.songs = this.store.select(SongsSelectors.selectAllSongs);

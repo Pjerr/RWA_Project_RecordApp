@@ -18,14 +18,3 @@ export const selectAllSongs = createSelector(
     .map((song) => <Song>song);
   }
 );
-
-export const selectSongID = createSelector(
-  selectSongsFeature,
-  (state:SongState) => state.selectedSongID
-);
-
-export const selectSong = createSelector(
-  selectAllSongs,
-  selectSongID,
-  (allSongs, songID)=> allSongs[songID] ?? null
-)
